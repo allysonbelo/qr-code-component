@@ -1,0 +1,49 @@
+.container {
+  background-color: #d6e2f0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  max-width: 1440px;
+  min-height: 100vh;
+}
+
+.content {
+  background-color: white;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.content::before {
+  content: "";
+  background: url(../images/image-qr-code.png) center center/cover;
+  border-radius: 8px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+}
+.content__title {
+  color: #1f3251;
+}
+.content__text {
+  color: #7b879d;
+  font-size: 0.9375rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
